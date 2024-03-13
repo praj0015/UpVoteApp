@@ -30,8 +30,6 @@ Upvote.propTypes = {
 
 export default Upvote;
 
-// import { useState } from 'react';
-
 // const UpVoteComponent = () => {
 //     const [selected, setSelected] = useState(false);
 

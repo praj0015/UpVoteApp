@@ -38,6 +38,7 @@ const UpvotesList = () => {
                     <div style={{ border: "2px solid #F4F6F8", marginRight: "10px", borderRadius: "16px", width: "500px"}}>
                         {group.upvotes.map((isSelected, index) => (
                             <Upvote 
+                                data-testid="upvote-button"
                                 key={index} 
                                 onToggle={(isSelected) => handleToggle(group.id, index, isSelected)} 
                             />
